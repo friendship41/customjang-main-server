@@ -24,11 +24,7 @@ public class ClientUser {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private int id;
-  private String username;
-  private String password;
   private String accessToken;
   private Calendar accessTokenValidity;
   private String refreshToken;
-  @Transient
-  private List<Entry> entries = new ArrayList<>();
 }
