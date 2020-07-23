@@ -1,4 +1,4 @@
-package com.friendship41.customjangmainserver.data.security;
+package com.friendship41.customjangmainserver.config.security.data;
 
 import java.util.ArrayList;
 import java.util.Calendar;
